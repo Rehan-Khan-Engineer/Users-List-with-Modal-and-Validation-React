@@ -1,0 +1,33 @@
+.modal {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  background-color: white;
+  text-align: center;
+  width: 30rem;
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 15rem);
+}
+
+.button {
+  background-color: rgb(66, 6, 122);
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 1rem 2.5rem;
+  font-weight: bold;
+  margin: 0rem 0 1rem 0;
+}
+
+.header {
+  background-color: rgb(66, 6, 122);
+  margin: 0;
+  padding: 1.5rem 0;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.message {
+  font-weight: bold;
+}
